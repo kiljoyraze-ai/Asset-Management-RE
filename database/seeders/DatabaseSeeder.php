@@ -21,26 +21,9 @@ class DatabaseSeeder extends Seeder
             ProductSeeder::class,
             RoleSeeder::class,
             StockBalanceSeeder::class,
+            PersonSeeder::class,
             PickupSeeder::class,
             InventoryTransactionSeeder::class,
-        ]);
-
-        $this->call([
-            UserSeeder::class,
-            KategoriSeeder::class,
-            SatuanSeeder::class,
-            UkuranSeeder::class,
-            BarangSeeder::class,
-            LantaiSeeder::class,
-        ]);
-
-        $this->call([
-            UserSeeder::class,
-            KategoriSeeder::class,
-            SatuanSeeder::class,
-            UkuranSeeder::class,
-            BarangSeeder::class,
-            LantaiSeeder::class,
         ]);
     }
 }
